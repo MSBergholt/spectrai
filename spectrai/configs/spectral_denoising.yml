@@ -12,7 +12,7 @@ Training_Options:
 Network_Hyperparameters:
   network: ResUNet                            # network architecture [UNet/ResUNet/ResNet/RCAN]
   dimension: '2D'                             # convolution dimension for images ['2D'/'3D']
-  activation: ReLU                            # activation function [ReLU/LeakyReLU/PReLU]
+  activation: LeakyReLU                       # activation function [ReLU/LeakyReLU/PReLU]
   normalization: 'None'                       # normalization layer [None/BatchNorm/LayerNorm/InstanceNorm/GroupNorm]
 
 Training_Hyperparameters:
